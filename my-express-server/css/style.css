@@ -1,0 +1,193 @@
+nav {
+  position: fixed;
+  padding-left: 1rem; }
+
+li:hover {
+  background-color: #ffc107; }
+
+.brand-logo:hover {
+  background-color: #ffb300; }
+
+.res-list:hover {
+  background-color: white; }
+
+.brand-logo {
+  padding: 0 5rem; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-family: 'Open Sans', sans-serif; }
+
+.row-1, .row-2, .row-3 {
+  opacity: 0; }
+
+.section {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/pexels-photo-1000366.jpeg"); }
+
+.about-text {
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+  font-family: 'Poiret One', cursive;
+  font-size: 6rem;
+  display: inline-block;
+  border-bottom: 2px #fd9644 solid; }
+
+.facts-text {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  font-family: 'Poiret One', cursive;
+  font-size: 6rem;
+  display: inline-block;
+  border-bottom: 2px #fd9644 solid; }
+
+.fact-bg {
+  background: #5d4037;
+  padding: 2rem 0; }
+
+.clients-text {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  font-family: 'Poiret One', cursive;
+  font-size: 6rem;
+  display: inline-block;
+  border-bottom: 2px #fd9644 solid; }
+
+.dir {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem; }
+
+.director {
+  margin-top: 3rem;
+  margin-bottom: 4rem; }
+
+.message {
+  font-family: 'Kalam', cursive;
+  font-size: 1.2rem; }
+
+.ani {
+  animation-name: textAppear;
+  animation-duration: 16s; }
+
+@keyframes textAppear {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: .5;
+    text-transform: capitalize; }
+  100% {
+    opacity: 1; } }
+
+.huge {
+  font-size: 40px; }
+
+header {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url("../img/1.jpg");
+  background-size: auto;
+  background-position: top;
+  height: 100vh;
+  width: 100%;
+  position: relative; }
+
+.text-box {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%); }
+
+.header1__text {
+  font-size: 8rem;
+  letter-spacing: 38px;
+  font-family: 'Amiri', serif;
+  animation-name: moveInLeft;
+  animation-duration: 3s; }
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px); }
+  80% {
+    opacity: .9;
+    transform: translateX(20px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+
+@media (max-width: 780px) {
+  .header1__text {
+    font-size: 4rem;
+    letter-spacing: 20px; }
+  .header2__text {
+    font-size: 1px;
+    letter-spacing: 1px; } }
+
+@media (max-width: 779px) {
+  header {
+    height: 70vh; } }
+
+.header2__text {
+  font-size: 6rem;
+  letter-spacing: 5px;
+  font-family: 'Great Vibes', cursive;
+  animation-name: moveInRight;
+  animation-duration: 3s; }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px); }
+  80% {
+    opacity: .9;
+    transform: translateX(-20px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+
+.welcome-text {
+  font-size: 2rem !important;
+  font-weight: 500;
+  border-radius: 4rem;
+  font-family: 'Amiri', serif;
+  border: 3px solid white;
+  animation: moveUp;
+  animation-duration: 3s; }
+
+@keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100px); }
+  80% {
+    opacity: 0.9;
+    transform: translateY(-10px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+.port-text {
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+  font-family: 'Poiret One', cursive;
+  font-size: 6rem;
+  display: inline-block;
+  border-bottom: 2px #fd9644 solid; }
+
+.video1 {
+  margin: 5rem; }
+
+.service-text {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  font-family: 'Poiret One', cursive;
+  font-size: 6rem;
+  display: inline-block;
+  border-bottom: 2px #fd9644 solid; }
+
+.method {
+  font-family: 'Poiret One', cursive;
+  font-weight: 800; }
+
+.second-image {
+  margin-top: -4rem; }
